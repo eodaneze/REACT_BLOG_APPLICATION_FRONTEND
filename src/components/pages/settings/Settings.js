@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from '../../sideBar/Sidebar'
+import settingImg from '../../../assets/about-1.jpg'
 import './settings.css'
 const Settings = () => {
   return (
@@ -13,7 +14,7 @@ const Settings = () => {
         <label>Profile Picture</label>
         <div className="settingsPP">
           <img
-            src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src={settingImg }
             alt=""
           />
           <label htmlFor="fileInput">

@@ -1,11 +1,10 @@
 import React from "react";
 import "./singlepost.css";
-import postImg from "../../assets/blog-1.avif";
 const Singlepost = () => {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
-        <img src={postImg} alt="" className="singlePostImg" />
+        <img src="https://images.unsplash.com/file-1636585210491-f28ca34ea8ecimage?dpr=2&auto=format&fit=crop&w=416&q=60" alt="" className="singlePostImg" />
         <h1 className="singlePostTitle">
           Lorem ipsum dolor sit amet consectetur
           <div className="singlePostEdit">

@@ -1,6 +1,6 @@
 import React from 'react'
 import './write.css'
-import writeImg from "../../../assets/blog-1.avif"
+import writeImg from "../../../assets/blog-4.jpg"
 const Write = () => {
   return (
     <div className='write'>

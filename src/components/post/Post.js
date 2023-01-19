@@ -1,5 +1,5 @@
 import React from 'react'
-import blogImg from '../assets/blog-1.avif'
+import blogImg from '../../assets/blog-4.jpg'
 import './post.css'
 const Post = () => {
   return (

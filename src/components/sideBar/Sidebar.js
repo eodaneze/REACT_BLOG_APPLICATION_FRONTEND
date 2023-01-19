@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../../assets/about-img.jpg";
+import AboutImg from "../../assets/about-1.jpg";
 import "./sidebar.css";
 const Sidebar = () => {
   return (
