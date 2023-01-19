@@ -1,13 +1,15 @@
 import "./App.css";
 import { TopBar } from "./components";
-import Home from "./pages/home/Home";
-
+import Single from "./components/pages/single/Single";
+import Write from "./components/pages/write/Write";
 
 function App() {
   return (
     <div>
-       <TopBar />
-       <Home />
+      <TopBar />
+
+      {/* <Single /> */}
+      <Write />
     </div>
   );
 }
