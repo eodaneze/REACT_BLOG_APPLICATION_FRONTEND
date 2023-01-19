@@ -1,8 +1,10 @@
 .singlePost {
     flex: 9;
+    display: flex;
   }
   
   .singlePostWrapper {
+    flex: 9;
     padding: 20px;
     padding-right: 0;
   }

@@ -1,4 +1,5 @@
 import React from "react";
+import Sidebar from "../sideBar/Sidebar";
 import "./singlepost.css";
 const Singlepost = () => {
   return (
@@ -18,6 +19,7 @@ const Singlepost = () => {
         </div>
         <p className="singlePostDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora accusamus, libero odit repellat iure, quasi nisi aspernatur itaque sit soluta facere? Error at quidem harum dolorem repellendus odit quas vel, nostrum consequuntur reiciendis perspiciatis ad aperiam accusamus exercitationem ipsam quae sit, quo officiis ipsum autem alias non. Odio quam cumque at, qui ducimus magnam esse neque ut natus accusamus porro earum? Natus nam voluptatibus vel. Dolorum, doloremque necessitatibus voluptatibus molestias veniam cum neque laboriosam repudiandae fugit ducimus earum aliquam fuga porro corrupti sequi officiis dolore quos! Nam, labore nisi numquam totam, mollitia sit magni tempora praesentium illo odio, ipsum earum.</p>
       </div>
+      <Sidebar />
     </div>
   );
 };
